@@ -15,7 +15,7 @@ public class DistribuidoraApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 1163, 650);
         stage.setTitle("Distribuidora El Güegüense - Registro de Colaboradores");
         stage.setScene(scene);
-        stage.setResizable(true); // Permite ajustar el tamaño si es necesario
+        stage.setResizable(true);
         stage.show();
     }
     public static void main(String[] args) {
